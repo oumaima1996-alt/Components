@@ -1,11 +1,9 @@
 import React from 'react'
-import {jci} from './ressourcr/jci.png'
 
-
-const ProfilePhoto = () => {
+const ProfilePhoto = (props) => {
     return (
-        <div>
-            
+        <div className = "image">
+            {props.children}
             
         </div>
     )
